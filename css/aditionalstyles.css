@@ -2,7 +2,7 @@
 /*Creados por estudiante: Josseline González Beita*/
 
 .logo-img {
-    max-width: 90px; /* Ajusta el tamaño máximo según tus necesidades */
+    max-width: 90px; 
     height: auto; /* La altura se ajusta automáticamente para mantener la proporción */
     vertical-align: middle; /* Alinea verticalmente el logo en el navbar */
   }
@@ -86,7 +86,7 @@
   }
   
   .col-cal img {
-    width: 100px; /* Ajusta el ancho según tus necesidades */
+    width: 100px; 
     height: auto; /* La altura se ajusta automáticamente para mantener la proporción */
   }
   
@@ -132,8 +132,4 @@
 #tabla img {
   max-width: 200px;
   height: auto;
-}
-
-#videos{
-
 }
