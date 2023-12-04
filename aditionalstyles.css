@@ -1,0 +1,139 @@
+/*Estilos adicionales*/
+/*Creados por estudiante: Josseline González Beita*/
+
+.logo-img {
+    max-width: 90px; /* Ajusta el tamaño máximo según tus necesidades */
+    height: auto; /* La altura se ajusta automáticamente para mantener la proporción */
+    vertical-align: middle; /* Alinea verticalmente el logo en el navbar */
+  }
+  
+  
+  .texto{
+    margin-left: 30px;
+  }
+  
+  #tituloCarrusel {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #fff;
+  }
+  
+  #tituloCarrusel h1 {
+    font-weight: 1000;
+  }
+  
+  @media (min-width: 300px) {
+    #tituloCarrusel {
+      z-index: 40;
+      top: 15vh;
+    }
+  
+    #tituloCarrusel h1 {
+      font-size: 1rem;
+    }
+  }
+  
+  @media (min-width: 576px) {
+    #tituloCarrusel h1 {
+      font-size: 1.5rem;
+    }
+    #tituloCarrusel {
+      z-index: 50;
+      top: 20vh;
+    }
+  }
+  
+  @media (min-width: 768px) {
+    #tituloCarrusel h1 {
+      font-size: 2rem;
+    }
+    #tituloCarrusel {
+      z-index: 80;
+      top: 20vh;
+    }
+  }
+  
+  @media (min-width: 992px) {
+    #tituloCarrusel h1 {
+      font-size: 2.5rem;
+    }
+    #tituloCarrusel {
+      z-index: 60;
+      top: 30vh;
+    }
+  }
+  
+  @media (min-width: 1200px) {
+    #tituloCarrusel h1 {
+      font-size: 3.5rem;
+    }
+    #tituloCarrusel {
+      z-index: 60;
+      top: 30vh;
+    }
+  }
+  
+  .row-gal {
+    float: left;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    /* Espacio entre las imágenes */
+    max-width: 100%;
+    /* Ocupa todo el ancho disponible */
+  }
+  
+  .col-cal img {
+    width: 100px; /* Ajusta el ancho según tus necesidades */
+    height: auto; /* La altura se ajusta automáticamente para mantener la proporción */
+  }
+  
+  @media (max-width: 576px) { 
+      .col-footer {
+          width: 100%;
+          float: left;
+          margin-top: 10%;
+        }
+        
+   }
+
+#map {
+    max-width: 97%;
+    margin-left: 10px;
+}
+
+/* Estilos para la tabla */
+#tabla {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+#tabla th, #tabla td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: center; /* Alineación central para todos los elementos de la tabla */
+}
+
+#tabla th {
+  background-color: #f2f2f2;
+}
+
+/* Alineación central específica para las columnas de código y precio */
+#tabla th:first-child,
+#tabla td:first-child,
+#tabla td:nth-child(4) {
+  text-align: center;
+}
+
+/* Estilos para las imágenes */
+#tabla img {
+  max-width: 200px;
+  height: auto;
+}
+
+#videos{
+
+}
